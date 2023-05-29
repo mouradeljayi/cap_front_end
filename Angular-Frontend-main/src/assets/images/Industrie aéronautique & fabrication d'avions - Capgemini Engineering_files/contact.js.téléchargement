@@ -1,0 +1,51 @@
+// var recaptcha_contact;
+
+// var onloadCallback = function() {
+//     // Renders the HTML element
+//     recaptcha_contact = grecaptcha.render('recaptcha_contact', {
+//         'sitekey' : ajax_api.key_recpatcha,
+//         'theme' : 'light'
+//     });
+// };
+
+
+// ( function( $ ) {
+//     $('#link_contact').click(function(e) {
+//         "use strict";
+//         e.preventDefault();
+
+//         $('#contact_form').show();
+//     });
+
+
+// 	function sendcontactJson(){
+
+// 		var form_datas = $('#f_contact').serialize();
+
+// 		$('#bt-submit-contact').addClass('disable');
+
+//         $.ajax({
+//             method: 'post',
+//             url: ajax_api.contact,
+//             data: form_datas
+//         }).done(function (json) {
+//             // reset recaptcha
+//            grecaptcha.reset(recaptcha_contact);
+//             console.log( json );
+// 			contact.errosDisplay(json.data.errors, json.data.msg);
+// 			$('#bt-submit-contact').removeClass('disable');
+//         });
+// 	}
+
+//     $('#f_contact').on('submit', function(e) {
+//         "use strict";
+//         e.preventDefault();
+
+//         sendcontactJson();
+//     });
+
+// 	/*$('#f_contact input').change(function(e) {
+// 		sendcontactJson();
+// 	});*/
+
+// } )( jQuery );

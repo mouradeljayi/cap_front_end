@@ -1,0 +1,92 @@
+section{
+    display: grid;
+}
+.bar{
+    display: grid;
+    grid-template-columns:  75% 25%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    content: center;
+}
+.addArchive{
+    margin-top: 2rem;
+}
+ button{
+    background-color: #3F71EA;
+    color: white;
+
+}
+
+.searchBar{
+    margin-top: 2rem;
+    background: none;
+}
+.archiveContent{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3% ;
+    
+}
+
+i{
+    cursor: pointer;
+}
+.archive{
+    display: grid;
+    grid-template-columns: 25% 75% ;
+}
+.filter{
+    padding-left: 2rem;
+    
+}
+h4{
+    text-align: initial;
+}
+h5{
+    margin-top: 1.5rem;
+}
+.crd{
+    padding-left: 0;
+}
+
+img{
+    height: 200px;
+    max-height: 200px;
+}
+
+.nom {
+    text-align: center;
+    color: #0070AD;
+}
+.btnDownload{
+    margin-top: 1.5rem;
+    display: block;
+    color:#0070AD ;
+}
+
+.checked {
+    color: orange;
+  }
+
+.links{
+    display: grid;
+    grid-template-columns: 30% 40%;
+    text-align: initial;
+}
+.card{
+    margin-bottom: 2rem;
+}
+.relatedSearch{
+    padding-bottom: 4rem;
+}
+.relatedSearch p{
+    width: fit-content;
+}
+.PartContent{
+    text-align: initial;
+}
+.ctpart{
+    padding: 0.8rem;
+    height: 250px;
+    max-height: 250px;
+
+}

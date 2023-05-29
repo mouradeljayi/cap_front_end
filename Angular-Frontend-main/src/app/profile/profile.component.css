@@ -1,0 +1,36 @@
+.profile {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-template-columns:  30% 60%;
+  }
+  h6{
+    width: 200px;
+  }
+  .info{
+    display: grid;
+    grid-template-rows:  15% 60% 40% ;
+    background-color: white;
+    padding-bottom: 40px;
+  }
+  .info img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+   h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info p {
+    font-size: 16px;
+  }
+.about{
+    display: grid;
+    grid-template-rows:  15% 60% 40% ;
+}

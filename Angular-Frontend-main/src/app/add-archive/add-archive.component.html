@@ -1,0 +1,135 @@
+<div class="form-popup" id="myForm">
+    <h3 >Add Archive</h3>
+    <div class="content" style="background-color: white;">
+      <form action="send.php" method="POST" enctype="multipart/form-data" style="background-color: white; padding:20px;">
+        <div class="form-row" style="padding-top:20px;">
+          <div class="col">
+            <span class="details">Full Name</span>
+            <input type="text" class="form-control" placeholder="First name" name="Fullname">
+          </div>
+          <div class="col">
+            <span class="details">Email</span>
+            <input type="email" class="form-control" placeholder="Enter your email" name="Email">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <span class="details">Departement</span>
+            <select name="Departement" id="inputState" class="form-control">
+              <option selected>What Departement ?</option>
+              <option value="Power Train">Power Train</option>
+              <option value="Systèmes">Systèmes</option>
+              <option value="Qualité et logistique">Qualité et logistique</option>
+              <option value="Life Sciences">Life Sciences</option>
+              <option value="Direction Technique MG2">Direction Technique MG2</option>
+            </select>
+          </div>
+          <div class="col">
+            <span class="details">Cluster</span>
+            <select name="Cluster" id="inputState" class="form-control">
+              <option selected>Cluster's name ?</option>
+              <option value="Life Science">Life Science</option>
+              <option value="Powertrain and Modular Platform Design">Powertrain and Modular Platform Design</option>
+              <option value="Powertrain and Modular Platform Eng">Powertrain and Modular Platform Eng</option>
+              <option value="CAE and Validation Engineering">CAE and Validation Engineering</option>
+              <option value="Railways and Trucks Engineering">Railways and Trucks Engineering</option>
+              <option value="ATN">ATN</option>
+              <option value="APV">APV</option>
+              <option value="Supply Chain">Supply Chain</option>
+              <option value="Quality">Quality</option>
+              <option value="Systems Engineering">Systems Engineering</option>
+              <option value="Mechatronics">Mechatronics</option>
+              <option value="IS4.0">IS4.0</option>
+              <option value="CAE MG2">CAE MG2</option>
+              <option value="Data Management">Data Management</option>
+              <option value="Body">Body</option>
+              <option value="Connected Electrics and Electronics Eng">Connected Electrics and Electronics Eng</option>
+              <option value="Fonction support Quality/GPO">Fonction support Quality/GPO</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <span class="details">Team Manager</span>
+            <input type="text" class="form-control" placeholder="Enter the team manager name" name="TM">
+          </div>
+          <div class="col">
+            <span class="details">Team Leader</span>
+            <input type="text" class="form-control" placeholder="Enter the team leader name" name="TL">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <span class="details">File name</span>
+            <input type="text" class="form-control" placeholder="Enter your file name" name="File_name">
+          </div>
+          <div class="col">
+            <span class="details">File Type</span>
+            <select name="Type" id="inputState" class="form-control">
+              <option selected>Type of file ?</option>
+              <option value="PPT">PPT</option>
+              <option value="PDF">PDF</option>
+              <option value="WORD">WORD</option>
+              <option value="JPG">JPG</option>
+              <option value="FILE">FILE</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <span class="details">Club</span>
+            <select name="Club" id="inputState" class="form-control">
+              <option selected>Club's name ?</option>
+              <option value="None">None</option>
+              <option value="Club Business">Club Business</option>
+              <option value="Club EVENTS SPORTS">Club EVENTS SPORTS</option>
+              <option value="Club VIDEOS and SOCIAL MEDIA">Club VIDEOS and SOCIAL MEDIA</option>
+              <option value="Club Robotic, VR and AR">Club Robotic, VR and AR</option>
+              <option value="AUTOMATION">AUTOMATION</option>
+              <option value="Club AI and ML">Club AI and ML</option>
+              <option value="Club Agile">Club Agile</option>
+              <option value="Club ZERO CARBONE">Club ZERO CARBONE</option>
+              <option value="Club Schools NETWORKING">Club Schools NETWORKING</option>
+            </select>
+          </div>
+          <div class="col">
+            <span class="details">Description</span>
+            <input type="text" class="form-control" placeholder="Enter the description" name="Description">
+          </div>
+        </div>
+        <br>
+        <div class="form-row">
+          <div class="col">
+            <label class="form-label" for="customFile">File upload</label>
+            <input type="file" class="form-control" id="customFile" />
+          
+          </div>
+          <div class="col">
+            <span class="details">Confidentiality</span>
+
+
+            <div class="form-check confid">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                private
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+              <label class="form-check-label" for="flexRadioDefault2">
+                Public
+              </label>
+            </div>
+            </div>
+
+          </div>
+<div class="submission">
+  <div></div>
+  <div>
+    <button routerLink="/app-archive" type="button" class="btn btn-light">Cancel</button>
+    <button routerLink="/app-archive" type="button" class="btn btn-light">Submit</button>
+  </div>
+  
+</div>
+          
+    

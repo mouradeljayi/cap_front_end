@@ -1,0 +1,13 @@
+/*(function ($) {
+
+    $('document').ready(function () {
+        var post_id = $('body').data('postid');
+        var blog_id = $('body').data('blogid');
+
+        if (post_id && blog_id) {
+            $.getJSON(wp_api.searchtracking_add_url + post_id);
+        }
+    });
+
+})(jQuery);
+*/

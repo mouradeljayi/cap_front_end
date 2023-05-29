@@ -1,0 +1,19 @@
+h3{
+    padding-top: 3rem;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 0;
+   
+}
+.col{
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+button{
+    margin: 2rem;
+}
+.submission{
+    display: grid;
+    grid-template-columns: 75% 25% ;
+
+}

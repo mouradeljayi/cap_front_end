@@ -1,0 +1,44 @@
+<section>
+  <div class="toolbar" role="banner">
+    <img width="200" alt="Capgemini Logo"
+      src="https://inno3.it/wp-content/uploads/2021/04/Capgemini-Engineering-logo-637534557174575795.png" />
+    <div class="spacer "></div>
+    <a aria-label="Accueil" routerLink="/app-home" rel="noopener" title="Accueil">
+      Home
+    </a>
+    <a aria-label="About" routerLink="/app-about" rel="noopener" title="About">
+      About
+    </a>
+    <a aria-label="Clubs" routerLink="/app-club" rel="noopener" title="Clubs">
+      Clubs
+    </a>
+    <div class="dropdown">
+      <a aria-label="Learning" rel="noopener" title="Learning" class="btn  hoverBtn" type="button"
+        data-toggle="dropdown">
+        Learning
+      </a>
+      <ul class="dropdown-menu">
+        <li><a routerLink="/app-formation">Course</a></li>
+        <li><a routerLink="app-archive">Archive</a></li>
+      </ul>
+    </div>
+    <a aria-label="Links" routerLink="/app-links" rel="noopener" title="Links">
+      Links
+    </a>
+    <a *ngIf="!isLoggedIn()" aria-label="Login" routerLink="/app-login" rel="noopener" title="Login">
+      Login
+    </a>
+    <li class="d-flex"  *ngIf="userData" aria-label="Login"  rel="noopener" title="Login">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+        {{userData.firstname}} {{userData.lastname}} <span class="badge badge-primary">{{userData.role}}</span>
+        <img src="../../assets/images/232.png" class="rounded-circle" width="45px">
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" routerLink="/app-profile">Profile</a>
+        <a class="dropdown-item" (click)="onLogout()">Logout</a>
+      </div>
+    </li>
+
+  </div>
+  <router-outlet></router-outlet>
+</section>

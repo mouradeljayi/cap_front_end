@@ -1,0 +1,48 @@
+section{
+    display: grid;
+}
+.bar{
+    display: grid;
+    grid-template-columns:  75% 25%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    content: center;
+}
+
+.archiveContent{
+    display: grid;
+    grid-template-columns:  50% 50% ;
+    
+}
+i{
+    cursor: pointer;
+}
+.archive{
+    display: grid;
+    grid-template-columns: 25% 75% ;
+}
+.filter{
+    padding-left: 2rem;
+    
+}
+h5{
+    margin-bottom: 3rem;
+}
+.card-content{
+    height: fit-content;
+    width: 25rem !important;
+    margin-bottom: 2rem;
+    
+}
+.card{
+    margin-left: 0 !important;
+}
+.nom {
+    text-align: center;
+    color: #0070AD;
+}
+.btnDownload{
+    margin-top: 1.5rem;
+    display: block;
+    color:#0070AD ;
+}

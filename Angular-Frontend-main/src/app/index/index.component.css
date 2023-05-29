@@ -1,0 +1,32 @@
+     
+.mainSection{
+   background-image: url("../../assets/images/pop.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+  #home h2{
+    color: #3986c5;
+    font-size: 2rem ;
+    letter-spacing: 1px;
+    margin-top: -20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana ;
+    padding-top:80px;
+
+}
+  #home p{
+    width: 100%;
+    color: black;
+    font-size: 0.9Srem;
+    line-height: 25px;
+    text-align: center;
+    justify-content: center;
+    font-family: verdana;
+    font-size:130%;
+    padding-left:10px;
+  }
+  .content{
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }

@@ -1,0 +1,33 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+h4{
+    padding-bottom: 2rem;
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.button {
+    background-color: #3F71EA;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:hover {
+    background-color: #3F71EA;
+  }
